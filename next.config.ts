@@ -4,9 +4,7 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  transpilePackages: ['zod-to-json-schema'],
   images: {
     remotePatterns: [
       {
